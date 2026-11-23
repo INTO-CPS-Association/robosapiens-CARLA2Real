@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use CARLA2Real or its data in research, please cite the original publication."
+title: "RoboSAPIENS-CARLA2Real"
+type: software
+authors:
+  - family-names: Pasios
+    given-names: Stefanos
+  - family-names: Nikolaidis
+    given-names: Nikos
+repository-code: "https://github.com/INTO-CPS-Association/robosapiens-CARLA2Real"
+license: MIT
+preferred-citation:
+  type: article
+  title: "CARLA2Real: A Tool for Reducing the Sim2real Appearance Gap in CARLA Simulator"
+  authors:
+    - family-names: Pasios
+      given-names: Stefanos
+    - family-names: Nikolaidis
+      given-names: Nikos
+  journal: "IEEE Transactions on Intelligent Transportation Systems"
+  year: 2025
+  volume: 26
+  issue: 11
+  start: 18747
+  end: 18761
+  doi: "10.1109/TITS.2025.3597010"
