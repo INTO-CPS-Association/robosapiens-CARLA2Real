@@ -20,6 +20,12 @@ The tool focuses on **simulation, photorealism enhancement, and synthetic data g
 
 ---
 
+## Relationship to the research repository
+
+This INTO-CPS case-study presentation is based on the same photorealism-enhancement, synthetic-data generation, and experimental implementation as the [original research repository](https://github.com/stefanos50/CARLA2Real). The Python entry points, model configurations, and commands below are intentionally unchanged. This edition adapts the documentation to the RoboSAPIENS and INTO-CPS context while preserving the original research implementation.
+
+---
+
 ## Method Overview
 
 CARLA2Real integrates the **Enhancing Photorealism Enhancement (EPE)** approach introduced by Intel Labs, which uses simulated rendering information (including G-buffers) to transform CARLA camera frames towards the appearance of real-world datasets. It also includes support for complementary methods:
@@ -48,9 +54,7 @@ robosapiens-CARLA2Real/
 ├── carla_unreal_engine_5/         # Unreal Engine 5 / CARLA-related material
 ├── README.md                      # this documentation
 ├── LICENSE                        # upstream MIT license and acknowledgments
-├── NOTICE                         # origin and third-party attribution notes
-├── CITATION.cff                   # citation metadata
-└── CONTRIBUTING.md                # contribution guidance
+└── CITATION.cff                   # citation metadata
 ```
 
 Some model checkpoints, datasets, and simulator binaries must be obtained separately and are not bundled with the source repository.
@@ -178,7 +182,7 @@ See [Hybrid-Sim2Real](https://github.com/stefanos50/Hybrid-Sim2Real) for its met
 
 ## License
 
-This project preserves the **MIT License** of the original CARLA2Real implementation, including the copyright notices for **Stefanos Pasios** and the **Intel Embodied AI Lab**. See [LICENSE](LICENSE) for the full license text and [NOTICE](NOTICE) for attribution details. External datasets, model checkpoints, CARLA, and other dependencies may be governed by **separate licenses and terms**.
+This project preserves the **MIT License** of the original CARLA2Real implementation, including the copyright notices for **Stefanos Pasios** and the **Intel Embodied AI Lab**. See [LICENSE](LICENSE) for the full license text. External datasets, model checkpoints, CARLA, and other dependencies may be governed by **separate licenses and terms**.
 
 ---
 
