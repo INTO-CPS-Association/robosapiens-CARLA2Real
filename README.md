@@ -182,11 +182,7 @@ This project preserves the **MIT License** of the original CARLA2Real implementa
 
 ## Acknowledgment
 
-This RoboSAPIENS-oriented repository edition is associated with **RoboSAPIENS — Robotic Safe Adaptation In Unprecedented Situations**, funded under the European Union's Horizon Europe research and innovation programme, **grant agreement No. 101133807**.
-
-The CARLA2Real tool originated in work conducted at **Aristotle University of Thessaloniki**. We acknowledge the original authors and the upstream research contributions on which the implementation builds, including the Intel Labs EPE method.
-
-Learn more about [RoboSAPIENS](https://robosapiens-eu.tech/).
+This tool is presented as part of the **RoboSAPIENS** project (*Robotic Safe Adaptation In Unprecedented Situations*), funded by the European Union's Horizon Europe research and innovation programme under grant agreement **No. 101133807**. The views and opinions expressed are those of the authors and do not necessarily reflect those of the European Union or the European Commission.
 
 ---
 
