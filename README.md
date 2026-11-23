@@ -20,12 +20,6 @@ The tool focuses on **simulation, photorealism enhancement, and synthetic data g
 
 ---
 
-## Relationship to the research repository
-
-This INTO-CPS case-study presentation is based on the same photorealism-enhancement, synthetic-data generation, and experimental implementation as the [original research repository](https://github.com/stefanos50/CARLA2Real). The Python entry points, model configurations, and commands below are intentionally unchanged. This edition adapts the documentation to the RoboSAPIENS and INTO-CPS context while preserving the original research implementation.
-
----
-
 ## Method Overview
 
 CARLA2Real integrates the **Enhancing Photorealism Enhancement (EPE)** approach introduced by Intel Labs, which uses simulated rendering information (including G-buffers) to transform CARLA camera frames towards the appearance of real-world datasets. It also includes support for complementary methods:
